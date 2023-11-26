@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Eduardo Schermack</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--CSS da página-->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+
+    <!--Font Awesone para usar os ícones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Ícone que ficará na aba do navegador-->
+    <link id='favicon' rel="shortcut icon" href="./img/10399765.png" type="image/x-png">
+</head>
+
+<body>
+
+    <!--Cabeçalho da página-->
+    <header>
+        <!--Criar o menu de navegação-->
+        <a href="/" class="logo">Eduardo Schermack</a>
+        <div id="menu" class="fa fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#skills">Habilidade</a></li>
+                <li><a href="#trabalhos">Projetos</a></li>
+                <li><a href="#hooby">Hooby's</a></li>
+                <li><a href="#contatos">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Documento da página-->
+    <main>
+        <!--painel inicial-->
+        <section id="home" class="home">
+            <div id="particles-js">Particulas Aqui</div>
+            <div class="conteudo">
+                <h2> Olá, <br> Me chamo, Eduardo <span>Schermack</span></h2>
+                <p>Eu sou <span class="escrever-texto"></span></p>
+
+                <a href="#sobre" class="btn">
+                    <span>Saiba Mais
+                    </span>
+                    <i class="fas fa-arrow-circle-down"></i></a>
+                <!--ícones das redes sociais-->
+                <div class="sociais">
+                    <ul class="social-icones">
+                        <li>
+                            <a class="linkedin" href="https://www.linkedin.com/in/eduardo-schermack" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="github" href="https://github.com/schermacke" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="instagram" href="https://www.instagram.com/edus_dudu/" target="_blank">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Imagem da pessoa-->
+            <div class="imagem">
+                <img class="tilt" src="img/WhatsApp Image 2023-11-09 at 11.31.44.jpeg">
+            </div>
+        </section>
+        <!--Fim Sessão Principal-->
+
+        <!--Sessão sobre-->
+        <section class="sobre" id="sobre">
+            <h2 class="cabecalho">Sobre</h2>
+
+            <div class="linha">
+                <div class="imagem">
+                    <img class="tilt" src="img/WhatsApp Image 2023-11-13 at 10.09.00.jpeg">
+                </div>
+                <div class="conteudo">
+                    <h3>O tal do Eduardo Schermack</h3>
+                    <span class="tag">Desenvolvedor Full Stack</span>
+
+                    <p>Meu nome é Eduardo Schermack, tenho 25 anos e sou casado com a maravilhosa Fernanda. Nasci em Panambi, no Rio Grande do Sul, 
+                       uma cidade conhecida pela sua cultura e tradição. Sou apaixonado por tecnologia e estou cursando análise e desenvolvimento de 
+                       sistemas, uma área que me desafia e me motiva. Além disso, estou sempre buscando me aperfeiçoar e aprender novas habilidades, 
+                       por isso faço cursos complementares como o bootcamp da Dio e o Udemy. Sou uma pessoa dedicada, criativa e comunicativa, que 
+                       gosta de trabalhar em equipe e resolver problemas.</p>
+                    <p>Sou estudante de análise e desenvolvimento de sistemas desde maio de 2023 e tenho grande interesse pela área de
+                       desenvolvimento web. Além da faculdade, faço cursos complementares para ampliar os meus conhecimentos e me manter
+                       atualizado com as novas tecnologias. Busco uma oportunidade de estágio onde possa aplicar e aprimorar as minhas 
+                       habilidades e aprender com a prática. Tenho conhecimento em front-end, com HTML, CSS, JavaScript e Bootstrap, e em
+                       ferramentas como GitHub, MySQL Workbench e Python.</p>
+
+                    <div class="caixa-conteudo">
+                        <div class="caixa">
+                            <p>
+                                <span>
+                                    Whatsapp:
+                                </span>
+                                +55 99676-4737
+                            </p>
+                        </div>
+                        <div class="caixa">
+                            <p>
+                                <span>
+                                    e-mail:
+                                </span>
+                                schermack007@outlook.com
+                            </p>
+                        </div>
+                    </div>
+                    <!--Botão Baixar Currículo-->
+                    <div class="resumebtn">
+                        <a href="https://drive.google.com/file/d/1_0B28M6pEK--JMCV_dld47y129acVJqB/view?usp=sharing" target="_blank" class="btn">
+                            <span>Currículo</span>
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--fim sessão sobre-->
+
+        <!--Sessão Habilidades-->
+        <section class="skills" id="skills">
+            <h2 class="cabecalho">Conhecimentos & Habilidades</h2><br>
+            <div class="conteudo">
+                <!--Uma Linha de Habilidades-->
+                <div class="linha" id="caixaskills">
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/OIP (1).jpeg">
+                            <span>HTML</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/css3.png">
+                            <span>CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/JavaScript_Logo.gif">
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/python-aip-web.jpg">
+                            <span>Python</span>
+                        </div>
+                    </div>
+                
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/R.png">
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/github.png">
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="info">
+                            <img src="img/mysql.png">
+                            <span style="text-align: center;">My SQL <br>workbench</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!--Sessão de Projetos -->
+        <section class="trabalhos" id="trabalhos">
+            <h2 class="cabecalho">Projetos</h2>
+            <div class="caixa-conteudo">
+
+                <div class="caixa tilt">
+                    <img src="img/android.jpg" alt="" />
+                    <div class="conteudo">
+                        <div class="tag">
+                            <h3>Gestão de Pessoas</h3>
+                        </div>
+                        <div class="desc">
+                            <p></p>
+                            <div class="btns">
+                                <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn" target="_blank">Código <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caixa tilt">
+                    <img draggable="false" src="./img/OIG (12).jpeg" alt="" />
+                    <div class="conteudo">
+                        <div class="tag">
+                            <h3>Portfolio Pessoa</h3>
+                        </div>
+                        <div class="desc">
+                            <p></p>
+                            <div class="btns">
+                                <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn" target="_blank">Código <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="caixa tilt">
+                    <img draggable="false" src="./img/OIG (12).jpeg" alt="" />
+                    <div class="conteudo">
+                        <div class="tag">
+                            <h3>Portfolio Pessoa</h3>
+                        </div>
+                        <div class="desc">
+                            <p></p>
+                            <div class="btns">
+                                <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> Ver</a>
+                                <a href="#" class="btn" target="_blank">Código <i class="fas fa-code"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="vertudo">
+                <a href="#" class="btn"><span>Ver Tudo</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+        <!-- work project section ends -->
+    <!--Fim Sessão de Projetos-->
+
+        <!--Sessão Hooby-->
+        <section id="hooby" class="hooby">
+            <h2 class="cabecalho">Meus Hooby's</h2>
+            
+            <div class="video">
+                <h3>Call of Duty Modern Warfare</h3>
+
+                <video src="./img/video.mp4" width="400px" height="250px" autoplay, loop, preload="auto", controls poster="./img/cod.jpg"></video>
+                
+                <p>Call of Duty: Modern Warfare é um jogo que promete uma<br>
+                experiência imersiva e emocionante para os fãs de jogos de<br>
+                tiro. Modos de jogo: Modo campanha, multiplayer e<br>
+                operações especiais:</p>
+            </div>
+
+            <div class="videocs">
+                <p>E claro o famoso Counter-Strike 2, que não poderia<br>
+                   ficar de fora não é mesmo, que com a nova atualização<br>
+                   trouxe Uma nova engine gráfica, a Source 2, que permite<br>
+                   uma renderização mais realista e baseada na física</p>
+
+                <video src="./img/videocs2.mp4" width="400px" height="250px" autoplay, loop, preload="auto", controls poster="./img/CS.jpg"></video>
+                
+                <h3> Counter - Strike 2</h3>
+               
+            </div>
+
+
+
+
+        </section>
+        <!--Fim Sessão Hobby-->
+
+        <!--Sessão dos Contatos-->
+        <section id="contatos" class="contatos">
+            <h2 class="cabecalho">Entre em Contato</h2>
+            <div class="container">
+                <div class="conteudo">
+                    <div class="caixa-imagem">
+                        <img src="img/R.jpeg" alt="ImagemContato" style="border-radius: 5%; max-width: 250px; max-height: 250px;">
+                    </div>
+                    <form id="contato-form">
+                        <div class="form-grupo">
+                            <div class="campo">
+                                <input type="text" name="nome" placeholder="Nome" required>
+                                <i class='fas fa-user'></i>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="email" placeholder="E-mail" required>
+                                <i class='fas fa-envelope'></i>
+                            </div>
+                            <div class="campo">
+                                <input type="text" name="fone" placeholder="Telefone">
+                                <i class='fas fa-phone-alt'></i>
+                            </div>
+                            <div class="mensagem">
+                                <textarea placeholder="Messagem" name="mensagem" required></textarea>
+                                <i class="fas fa-comment-dots"></i>
+                            </div>
+                        </div>
+                        <div class="botao-area">
+                            <button type="submit">
+                                Enviar <i class="fa fa-paper-plane"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Fim sessão Contato-->
+    </main>
+    <!--Fim corpo com da página-->
+
+    <!--Rodapé da página-->
+    <footer>
+        <section class="rodape">
+            <div class="box-container">
+                <div class="caixa">
+                    <h3>Eduardo Schermack</h3>
+                    <p>Obrigada por Visitar meu Portifólio.<br>
+                        Visite-me nas redes sociais. <br /> <br />
+                </div>
+
+                <div class="caixa">
+                    <h3>Links</h3>
+                    <a href="#home"><i class="fas fa-chevron-circle-right"></i> Home</a>
+                    <a href="#sobre"><i class="fas fa-chevron-circle-right"></i> Sobre</a>
+                    <a href="#skills"><i class="fas fa-chevron-circle-right"></i> Habilidades</a>
+                    <a href="#trabalhos"><i class="fas fa-chevron-circle-right"></i> Projetos</a>
+                    <a href="#hooby"><i class="fas fa-chevron-circle-right"></i> Hooby's</a>
+                </div>
+
+                <div class="caixa">
+                    <h3>Contato</h3>
+                    <p> <i class="fas fa-phone"></i>(55) 99676-4737</p>
+                    <p> <i class="fas fa-envelope"></i>schermack007@outlook.com</p>
+                    <div class="share">
+
+                        <a href="https://www.linkedin.com/in/eduardo-schermack" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
+                        <a href="https://github.com/schermacke" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+                        <a href="https://outlook.live.com/mail/schermack007@outlook.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--Fim rodapé-->
+
+    <!-- Botao de voltar ao topo-->
+    <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
+
+
+    <!--Links das bibliotecas em uso em js-->
+
+    <!-- jquery cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Typed.js é uma biblioteca que digita. Insira qualquer 
+    string e observe-a digitar na velocidade que você definiu, 
+    retroceda o que foi digitado e comece uma nova frase para quantas strings você definiu.-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- particle.js links -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- vanilla. Cria o efeito 3D nas imagens -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+        integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- animação do scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
